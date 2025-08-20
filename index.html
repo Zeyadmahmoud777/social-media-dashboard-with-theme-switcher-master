@@ -8,7 +8,22 @@
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../dist/style.css">
+  <script defer src="../dist/script.js"></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+<!--! here all my sass file who can rich to by css link-->
+<link rel="stylesheet" href="app/scss/components/tooggle.css">
+
+
+
+
+<!--! here all my sass file who can rich to by css link-->
+
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -16,14 +31,35 @@
 </head>
 <body>
 
-  Social Media Dashboard
-  Total Followers: 23,004
 
-  Dark Mode
+  <!--1:07:36-->
+  <header class="header container">
+    <h1 class="gbf">Social Media Dashboard</h1>
+    Total Followers: 23,004
 
-  
 
-  @nathanf
+     <fieldeset class="toggle" aria-label="theme toggle" role="radiogroup">
+       <label for="dark">Dark</label>
+       <div class="toggle__wrapper">
+         <input type="radio" name="theme" id="dark">
+         <input type="radio" name="theme" id="system" checked>
+         <input type="radio" name="theme" id="light">
+         <span aria-hidden="true" class="toggle__background"></span>
+         <span aria-hidden="true" class="toggle__button"></span>
+        </div>
+        <label for="dark">System Pref</label>
+        <label for="light">Light</label>
+     </fieldeset>
+  </header>
+
+  <main>
+
+    <section>
+      
+    </section>
+
+
+    @nathanf
   1987
   Followers
   12 Today
@@ -77,7 +113,17 @@
 
   Total Views
   1407
-  12%
+  12% 
+
+  </main>
+
+
+
+ 
+
+  
+  
+  <!-- <script src="/app/js/script.js"></script> -->
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
