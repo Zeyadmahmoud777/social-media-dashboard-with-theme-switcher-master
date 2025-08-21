@@ -75,19 +75,16 @@ body.dark {
 }
 
 :root {
-  --font-inter: "Inter", sans-serif;
+  --font-inter: "Inter", inter , sans-serif;
 }
 
 .container {
-  padding: re(25);
+  padding: 0 1.5625rem;
   max-width: 69.375rem;
-  margin: 0 auto;
+  margin: 0 auto 2.875rem;
 }
-@media (min-width: 59.37em) {
+@media (min-width: 71.87em) {
   .container {
     padding: 0;
   }
-}
-.container .gbf {
-  color: red;
 }/*# sourceMappingURL=layout.css.map */
